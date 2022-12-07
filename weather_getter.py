@@ -17,7 +17,7 @@ headers = {
 def get_weather(city):
     city = city.replace(" ", "+")
     res = requests.get(
-        f'https://www.google.com/search?q={city}&oq={city}&aqs=chrome.0.35i39l2j0l4j46j69i60.6128j1j7&sourceid=chrome'
+        f'https://www.google.com/search?hl=en&q={city}&oq={city}&aqs=chrome.0.35i39l2j0l4j46j69i60.6128j1j7&sourceid=chrome'
         f'&ie=UTF-8',
         headers=headers)
     soup = BeautifulSoup(res.text, 'html.parser')
