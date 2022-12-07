@@ -15,5 +15,5 @@ A Telegram bot that returns weather of a city to the user. Made by Hritendu Russ
 
 1) Press the start button in the chat to get started.
 2) Type `/help` to see what the bot can do.
-3) If you have a VPN connection active on the server running the python code, make sure to turn it off. 
+3) If you have a VPN connection active on the device running the python code, make sure to turn it off. 
 4) That's all !
