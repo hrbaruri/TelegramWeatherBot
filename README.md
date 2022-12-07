@@ -13,6 +13,6 @@ A Telegram bot that returns weather of a city to the user. Made by Hritendu Russ
 
 ## Instructions For Using Telegram Bot
 
-1) Press the start button in the chat to get started
-2) Type `/help` to get started
+1) Press the start button in the chat to get started.
+2) Type `/help` to see what the bot can do.
 3) That's all !
