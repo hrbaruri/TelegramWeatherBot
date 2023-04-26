@@ -27,3 +27,5 @@ def get_weather(city):
     weather = soup.select('#wob_tm')[0].getText().strip()
     msg = location + '\n' + time + '\n' + info + '\n' + weather + "°C"
     return msg
+
+
